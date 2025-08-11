@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { FaDesktop, FaFolder, FaDownload, FaMusic, FaImage, FaVideo, FaHome } from 'react-icons/fa';
+import { FaUsers } from 'react-icons/fa6'
 
 const sidebarItems = [
   { path: '/', name: 'Home', icon: <FaHome /> },
@@ -10,6 +11,7 @@ const sidebarItems = [
   { path: '/music', name: 'Music', icon: <FaMusic /> },
   { path: '/pictures', name: 'Pictures', icon: <FaImage /> },
   { path: '/videos', name: 'Videos', icon: <FaVideo /> },
+  { path: '/users', name: 'Users', icon: <FaUsers /> },
 ];
 
 const DashboardLayout = () => {
